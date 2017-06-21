@@ -1,2 +1,36 @@
-<h1>Pages#x</h1>
-<p>Find me in app/views/pages/x.html.erb</p>
+<%= form_tag(action: "new_user") do %>
+	<div>
+		<%= label_tag :nombre, "Nombre" %>
+		<%=  text_field_tag :nombre%>
+	</div>
+	<div>
+		<%= label_tag :email, "email" %>
+		<%=  text_field_tag :email%>
+	</div>
+
+	<div>
+		<%= label_tag :edad, "Edad" %>
+		<%=  text_field_tag :edad%>
+	</div>
+
+	<div>
+		<%= submit_tag "Enviar" %>
+	</div>
+<% end %>
+
+<hr>
+
+<!-- f<%= form_tag(pages_x_path, method: :get) do %>
+	<div>
+		<%= label_tag :query, "Buscar" %>
+		<%= text_field_tag :query %>
+		<%= submit_tag "Buscar Usario" %>
+	</div>
+f<% end %> -->
+
+
+<!-- <ul>
+	<% @users.each do |user| %>
+		<li><%= user.nombre %></li>
+	<% end  %>
+</ul> -->
