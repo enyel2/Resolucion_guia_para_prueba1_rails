@@ -10,7 +10,20 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require bootstrap
+//= require bootstrap.min
+//= require creative
+//= require creative.min
+//= require jquery.easing
+//= require jquery.easing.min
 //= require jquery
+//= require jquery.magnific-popup
+//= require jquery.magnific-popup.min
+//= require jquery.min
+//= require scrollreveal
+//= require scrollreveal.min
+//= require tether
+//= require tether.min
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .

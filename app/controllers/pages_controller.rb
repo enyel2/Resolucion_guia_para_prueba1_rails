@@ -19,4 +19,8 @@ class PagesController < ApplicationController
   		redirect_to pages_x_path, alert: "Ingrese Todos los cambios"
   	end
   end
+
+  def landing
+    
+  end
 end

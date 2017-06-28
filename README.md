@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# pagina de heroku
+
+https://guiaprueba.herokuapp.com/pages/x
